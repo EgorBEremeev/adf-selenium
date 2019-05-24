@@ -59,7 +59,7 @@ $ORACLE_HOME/oracle_common/modules/org.apache.maven_3.2.5/bin/mvn install:instal
     -DartifactId=richclient-automation -Dversion=12.2 -Dpackaging=jar
 ```
 
-## Rebuild adf-richclient-automation-11.jar with Selenium 3.3.1 and newer
+## Rebuild adf-richclient-automation-11.jar with Selenium 3.3.1 and higher versions
 Unfortunately the richclient-automation library distributed with JDeveloper does not work with Selenium 3.3.1 and higher versions.
 
 See the problems detales in this stackoverlow question [how-to-get-adf-richclient-automation-11-jar-compatible-with-the-latest-selenium](https://stackoverflow.com/questions/52042307/how-to-get-adf-richclient-automation-11-jar-compatible-with-the-latest-selenium).
